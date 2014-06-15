@@ -1,0 +1,408 @@
+$primary_color: #0D3451;
+
+
+@mixin caps_headings {
+	color: #206DB1;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+header {
+	margin: 0 auto;
+	background-image: url(../images/header.jpg);
+}
+
+.container_top {
+	margin: 0 auto;
+	width: 960px;
+	height: 500px;
+	position: relative;
+}
+
+#logo {
+	position:absolute;
+	top: 10px;
+	left: 0px;
+}
+
+nav.main, {
+
+	a {
+	 text-decoration: none;
+	 color: $primary_color;
+	}
+
+	img {
+	margin: 0;
+	padding: 0;
+	}
+}
+
+p.tagline { 
+  top: 100px; 
+  width: 100%; 
+  text-align: center;
+  color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+	text-shadow: $primary_color 2px 2px;
+	margin-bottom: none;
+	padding-bottom: none;
+}
+
+small {
+  color: $primary_color;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	text-transform: none;
+	margin-top: 0px;
+	display: block;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+ul.top_left {
+ list-style-type: none;
+ display: inline-block;
+ font-family: 'PT Sans', sans-serif;
+ padding-left: 40px;
+}
+
+ul.top_right, li {
+ list-style-type: none;
+ display: inline-block;
+ float: right;
+ font-family: 'Oswald', sans-serif;
+ padding-left: 0px;
+}
+
+#search {
+	padding-left: 5px;
+}
+
+li {
+	padding-left: 20px;
+}
+/************** MIDDLE *********************/
+.container_middle {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/************** ASIDE *********************/
+
+aside {
+	width: 230px;
+	float: right;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.avatar {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h3 {
+	@include caps_headings;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+h4 {
+	@include caps_headings;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+.contacts {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;	
+	margin: 0px;
+	padding: 2px;
+	display: inline-block;
+	color: #A4B3BF
+
+}
+
+.social {
+	text-align: center;
+	margin: 0px auto;
+
+}
+
+.advertisement {
+	width: 230px;
+	padding-left: 0px;
+	margin-top: 30px;
+}
+
+.adlink {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 10px;	
+	float: right;
+	display: inline-block;
+	color: #A4B3BF;	
+	text-decoration: underline;
+}
+
+.caption, p {
+	color: #A4B3BF;
+	font-size:11px;
+}
+
+/************** ARTICLE *********************/
+
+article {
+	margin: 0; 
+	width: 630px;
+}
+
+.thumb {
+	width: 15px;
+	height: 15px;
+	padding-left: 0px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.authorname {
+	display: inline-block;
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 11px;
+}
+time {
+	color: #A4B3BF;
+	font-size:10px
+}
+
+.date {
+	display: inline-block;
+	text-decoration: underline;
+	color: #A4B3BF;
+	font-size:10px;
+}
+
+h1 {
+	color: $primary_color;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 0px;
+}
+
+article, p {
+	color: #5E686F;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+
+blockquote {
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+span.inline {
+	color: #206DB1;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+
+
+
+h2 {
+	color: $primary_color;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+
+.button {
+	display: inline-block;
+	width: 125px;
+	height: 25px;
+	margin: 0px 10px 0px 0px;
+
+}
+
+.bug {
+	background-color: #5E686F;
+	margin: 0px;
+	float: left;
+	height: 15px;
+	width: 15px;
+	border: none;
+	padding: 5px;
+}
+
+.label {
+	float: right;
+	background-color: #A4B3BF;
+	text-align: center;
+	color: #ffffff;
+	margin: 0px;
+	padding-top: 5px;
+	color: #ffffff;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	height: 20px;
+	width: 100px;
+	border: none;
+}
+
+
+.bug:hover { 
+background-color: $primary_color;
+}
+
+.label:hover { 
+	background-color: #206DB1;
+}
+
+
+
+/************** FOOTER *********************/
+
+
+
+.container_middle2 {
+	margin: 0 auto;
+	width: 960px;
+	height: 330px;
+	border: none;
+	padding: 0px;
+}
+
+h2 {
+	color: $primary_color;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.post {
+	max-width: 240px;
+	height: 244px; 
+	border: none;
+	float: left;
+	position: relative;
+}
+
+#overlay {
+  position: absolute;
+  top: 0px; 
+  left: 0px;
+	width: 240px;
+	height: 244px;
+  color: #ffffff;  
+}
+
+.colorblock {
+	position: absolute;
+  top: 0px; 
+  left: 0px;
+	width: 240px;
+	height: 244px;
+	background-color: $primary_color;
+  opacity: 0.7;
+}
+
+.post:hover #overlay {
+  color: $primary_color;  
+  opacity:0;
+}
+
+.title_static { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+.title_hot { 
+  position: absolute;
+  margin: 0px; 
+  bottom: 10px; 
+  left: 10px;
+  color: #0D3451;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px; 
+}
+
+.title_hot { 
+  color: $primary_color;
+}
+
+img.photos {
+	max-width: 240px;
+	height: auto; 
+	border: none;
+}
+
+/****************** Bottom Blue Bar *******************/
+
+.container_bottom {
+	margin: 0 auto;
+	width: 960px;
+	height: 80px;
+	background-color: $primary_color;
+	position: relative;
+}
+
+.ironyd {
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.legal {
+	float: left;
+	margin-top: 32px;
+	margin-left: 20px;
+}
+
+p.sub_left {
+	margin: 0px;
+	color: #A4B3BF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 11px; 
+}
+/************** BLUE BAR BOILERPLATE ****************/
+
+#navlist {
+	list-style: none;
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+#navlist, li.sub_right {
+	float: right;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 11px;
+	color: #A4B3BF;
+	margin-top: 30px;
+}
+
+a.sub_right {
+	color: #A4B3BF;
+	font-size: 12px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+
