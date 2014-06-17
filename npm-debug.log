@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', 'gulp' ]
+2 info using npm@1.4.15
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose url raw gulp
+6 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+7 verbose url resolved https://registry.npmjs.org/gulp
+8 info trying registry request attempt 1 at 14:38:04
+9 verbose etag "6GHN64ZNE95YVPM7GPTB9MB3D"
+10 http GET https://registry.npmjs.org/gulp
+11 http 304 https://registry.npmjs.org/gulp
+12 silly registry.get cb [ 304,
+12 silly registry.get   { date: 'Mon, 16 Jun 2014 18:38:06 GMT',
+12 silly registry.get     server: 'Apache',
+12 silly registry.get     via: '1.1 varnish',
+12 silly registry.get     'last-modified': 'Mon, 16 Jun 2014 18:37:39 GMT',
+12 silly registry.get     'cache-control': 'max-age=30',
+12 silly registry.get     etag: '"6GHN64ZNE95YVPM7GPTB9MB3D"',
+12 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+12 silly registry.get     'x-cache': 'HIT',
+12 silly registry.get     'x-cache-hits': '2',
+12 silly registry.get     'x-timer': 'S1402943886.035219,VS0,VE0',
+12 silly registry.get     vary: 'Accept',
+12 silly registry.get     'content-length': '0',
+12 silly registry.get     'keep-alive': 'timeout=10, max=50',
+12 silly registry.get     connection: 'Keep-Alive' } ]
+13 verbose etag gulp from cache
+14 info outdated updating []
+15 error Error: EMFILE, readdir '/Users/laurapatti/TIY_projects/yeoman_104/node_modules/wiredep/node_modules/chalk/node_modules/ansi-styles'
+16 error If you need help, you may report this *entire* log,
+16 error including the npm and node versions, at:
+16 error     <http://github.com/npm/npm/issues>
+17 error System Darwin 13.2.0
+18 error command "node" "/usr/local/bin/npm" "update" "gulp"
+19 error cwd /Users/laurapatti/TIY_projects/yeoman_104
+20 error node -v v0.10.28
+21 error npm -v 1.4.15
+22 error path /Users/laurapatti/TIY_projects/yeoman_104/node_modules/wiredep/node_modules/chalk/node_modules/ansi-styles
+23 error code EMFILE
+24 error errno 20
+25 verbose exit [ 20, true ]
